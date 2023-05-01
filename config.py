@@ -11,22 +11,22 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5601546958:AAF08tJAh9O-IGeHcYqH_-MBDsBcx3CPkqA")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6118007566:AAGBb9XBVtrFC25gyFEIEOZlB5YXsepOXTg")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "16743442"))
+APP_ID = int(os.environ.get("APP_ID", "20421248"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
+API_HASH = os.environ.get("API_HASH", "90da70b17365b3709b8a0346a7749ce7")
 
 # ID Channel Database
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001750485720"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "The_Nanamii")
+OWNER = os.environ.get("OWNER", "Shadow")
 
 # Protect Content
-PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
+PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -36,11 +36,11 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://brmhwhgf:Eq_ZuGoNei_j50ST1iGf7WMymc6IO9vf@hattie.db.elephantsql.com/brmhwhgf")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://csgntwtz:o_PzyaBIMB5z_LYM76VSind6P5tfJ4FI@horton.db.elephantsql.com/csgntwtz")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001209619698"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001928279167")) 
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001904717044"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001851105469")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((844432220, 1250450587, 1750080384, 5885920877))
+ADMINS.extend((1834137156))
 
 
 LOG_FILE_NAME = "logs.txt"
