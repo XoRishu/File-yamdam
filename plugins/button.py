@@ -29,7 +29,7 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ French", url=client.invitelink),
+                InlineKeyboardButton(text="HAɴɪᴍᴇ French", url=client.invitelink),
             ],
             [
                 InlineKeyboardButton(text="👾HOME👾", callback_data="help"),
@@ -43,8 +43,8 @@ def start_button(client):
                 InlineKeyboardButton(text="Help", callback_data="help"),
             ],
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ French", url=client.invitelink),
-                InlineKeyboardButton(text="French Bᴏᴛs", url=client.invitelink2),
+                InlineKeyboardButton(text="HAɴɪᴍᴇ French", url=client.invitelink),
+                InlineKeyboardButton(text="Hanime Doujinshi", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="🍁CLOSE🍁", callback_data="close")],
         ]
@@ -55,7 +55,7 @@ def fsub_button(client, message):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="French Bᴏᴛs", url=client.invitelink2),
+                InlineKeyboardButton(text="F", url=client.invitelink2),
             ],
         ]
         try:
@@ -73,7 +73,7 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ French", url=client.invitelink),
+                InlineKeyboardButton(text="HAɴɪᴍᴇ French", url=client.invitelink),
             ],
         ]
         try:
@@ -91,8 +91,8 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ French", url=client.invitelink),
-                InlineKeyboardButton(text="French Bᴏᴛs", url=client.invitelink2),
+                InlineKeyboardButton(text="HAɴɪᴍᴇ French", url=client.invitelink),
+                InlineKeyboardButton(text="Hanime Doujinshi", url=client.invitelink2),
             ],
         ]
         try:
