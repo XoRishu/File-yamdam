@@ -25,35 +25,35 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- 👨‍💻 Developed by </b><a href='https://t.me/Campus_Bot_Updates'>Anime Campus</a>
+ 👨‍💻 Developed by </b><a href='https://t.me/French_Bot_Updates'>Anime French</a>
 """
 
     close = [
-        [InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")]
+        [InlineKeyboardButton("🍁CLOSE 🍁", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("😙Hᴇʟᴘ😙", callback_data="help"),
-            InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
+            InlineKeyboardButton("😙HOME 😙", callback_data="help"),
+            InlineKeyboardButton("🍁CLOSE🍁", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("🥀Aʙᴏᴜᴛ🥀", callback_data="about"),
-            InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
+            InlineKeyboardButton("🥀ANIME🥀", callback_data="about"),
+            InlineKeyboardButton("🍁FRENCH 🍁", callback_data="close")
         ],
     ]
 
     ABOUT = """
 <b>About this Bot:
 
- @Anime_Campus_Bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
+ @French_Bot_Updates is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
-  • Creator: @MH17_KUNAL
+  • Creator: @Shadow_Sanpai
   • Framework: Pyrograms
-  • Channel :@Campus_Bot_Updates
+  • Channel :@French_Bot_Updates
 
- 👨‍💻 Developed by @Anime_Campus
+ 👨‍💻 Developed by @Anime_French 
 """
