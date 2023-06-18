@@ -26,7 +26,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001872891848"))
 OWNER = os.environ.get("OWNER", "Shadow")
 
 # Protect Content
-PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
+PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False")) # If you want to no one can share your files from bot then put this true 
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
