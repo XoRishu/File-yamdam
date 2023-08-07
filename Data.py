@@ -25,24 +25,24 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- 👨‍💻 Developed by </b><a href='https://t.me/French_Bot_Updates'>Anime French</a>
+ 👨‍💻 Developed by </b><a href='https://t.me/guardians_Bot_Updates'>Eɴᴄʟᴀᴠᴇ Bᴏᴛᴢ</a>
 """
 
     close = [
-        [InlineKeyboardButton("🍁CLOSE 🍁", callback_data="close")]
+        [InlineKeyboardButton("CLOSE", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("😙HOME 😙", callback_data="help"),
-            InlineKeyboardButton("🍁CLOSE🍁", callback_data="close")
+            InlineKeyboardButton("💠HOME💠", callback_data="help"),
+            InlineKeyboardButton("CLOSE", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("🥀ANIME🥀", callback_data="about"),
-            InlineKeyboardButton("🍁FRENCH 🍁", callback_data="close")
+            InlineKeyboardButton("🔸️About🔸️", callback_data="about"),
+            InlineKeyboardButton("Close", callback_data="close")
         ],
     ]
 
@@ -53,7 +53,7 @@ class Data:
 
   • Creator: @Shadow_Sanpai
   • Framework: Pyrograms
-  • Channel :@French_Bot_Updates
+  • Channel :@Shadow_Guardians 
 
- 👨‍💻 Developed by @Anime_French 
+ 👨‍💻 Developed by @guardians_Bot_Updates
 """
