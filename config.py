@@ -11,16 +11,16 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6070394576:AAEt-wuQ-DABQISKWs79jQ-zil4qF5prKTk")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "20421248"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "90da70b17365b3709b8a0346a7749ce7")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001922981743"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Shadow")
@@ -36,11 +36,11 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Shadow_Sanpai:shadowsanpai@cluster0.bvmudij.mongodb.net/?retryWrites=true&w=majority")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "")) 
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001809308823"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001862454327")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}\n\nI can save private files on Certain Channels and other users can access them from a special link..</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5009250822").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5009250822 ,1537176737, 5102402876").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((6158987073, 6208886200, 5009250822, 5102402876))
+ADMINS.extend((5102402876, 5009250822, 1537176737))
 
 
 LOG_FILE_NAME = "logs.txt"
