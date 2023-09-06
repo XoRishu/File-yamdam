@@ -18,7 +18,7 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="⚠️ Join Now ⚠️", url='https://t.me/+HbiY_ioMyDo0NTg1'),
+                InlineKeyboardButton(text="⚠️ Join Now ⚠️", url='https://t.me/+_UFcVhVAu0pkYWM1'),
             ],
             [
                 InlineKeyboardButton(text="💠HOME💠", callback_data="help"),
@@ -44,7 +44,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(text="⚠️ Join Now ⚠️", url=client.invitelink),
-                InlineKeyboardButton(text="⚠️ Join Now ⚠️", url='https://t.me/+HbiY_ioMyDo0NTg1'),
+                InlineKeyboardButton(text="⚠️ Join Now ⚠️", url='https://t.me/+_UFcVhVAu0pkYWM1'),
             ],
             [InlineKeyboardButton(text="CLOSE", callback_data="close")],
         ]
@@ -55,7 +55,7 @@ def fsub_button(client, message):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="F", url='https://t.me/+HbiY_ioMyDo0NTg1'),
+                InlineKeyboardButton(text="F", url='https://t.me/+_UFcVhVAu0pkYWM1'),
             ],
         ]
         try:
@@ -92,7 +92,7 @@ def fsub_button(client, message):
         buttons = [
             [
                 InlineKeyboardButton(text="⚠️ Join Now ⚠️", url=client.invitelink),
-                InlineKeyboardButton(text="⚠️ Join Now ⚠️", url='https://t.me/+HbiY_ioMyDo0NTg1'),
+                InlineKeyboardButton(text="⚠️ Join Now ⚠️", url='https://t.me/+_UFcVhVAu0pkYWM1'),
             ],
         ]
         try:
